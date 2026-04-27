@@ -1,6 +1,6 @@
 # Parcial MISW-4104
 
-**Juan Pablo Vargas**
+**Juan Pablo Vargas Rodríguez**
 
 Aplicación en Angular que permite explorar usuarios y repositorios de GitHub.
 
