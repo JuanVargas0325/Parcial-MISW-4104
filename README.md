@@ -17,12 +17,12 @@ Abrir en el navegador: `http://localhost:4200`
 
 ### Listado de usuarios con detalle
 
-![Usuarios con detalle](users-detail.png)
+<img width="1920" height="929" alt="image" src="https://github.com/user-attachments/assets/89196de5-b04c-47de-bbff-82bdfcc46b74" />
 
 ### Listado de repositorios
 
-![Repositorios](repositories.png)
+<img width="1920" height="929" alt="image" src="https://github.com/user-attachments/assets/ec26cb6a-f9b8-4684-ac31-cd0bb021fd6a" />
 
 ### Detalle de repositorio
 
-![Detalle repositorio](repository-detail.png)
+<img width="1920" height="929" alt="image" src="https://github.com/user-attachments/assets/53bf821f-2960-404b-b86d-751e69773495" />
