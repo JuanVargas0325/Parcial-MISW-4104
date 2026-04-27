@@ -1,0 +1,39 @@
+<div class="detail-card">
+  <button class="close-btn" (click)="onClose()">&times;</button>
+
+  <div class="detail-header">
+    <img [src]="user.avatarUrl" [alt]="user.name" class="detail-avatar" />
+    <h2>{{ user.name }}</h2>
+    <span class="handle">@{{ user.username }}</span>
+  </div>
+
+  <div class="detail-body">
+    <div class="info-row">
+      <span class="info-label">Correo</span>
+      <span class="info-value">{{ user.email }}</span>
+    </div>
+    <div class="info-row">
+      <span class="info-label">Rol</span>
+      <span class="info-value">{{ getRoleLabel(user.role) }}</span>
+    </div>
+    <div class="info-row">
+      <span class="info-label">Ubicación</span>
+      <span class="info-value">{{ user.location }}</span>
+    </div>
+    <div class="info-row">
+      <span class="info-label">Repositorios</span>
+      <span class="info-value mono">{{ user.repoIds.length }}</span>
+    </div>
+
+    <div class="repo-ids" *ngIf="user.repoIds.length > 0">
+      <span class="info-label">IDs de repositorios</span>
+      <div class="id-chips">
+        <span class="chip" *ngFor="let id of user.repoIds">#{{ id }}</span>
+      </div>
+    </div>
+
+    <div class="no-repos" *ngIf="user.repoIds.length === 0">
+      <span>Este usuario no tiene repositorios asociados.</span>
+    </div>
+  </div>
+</div>
